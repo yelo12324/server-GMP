@@ -7,7 +7,7 @@ const app = express();
 
 // 🔧 Allow React frontend on port 5173 and 5174
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://gunno-media-production-wxet.vercel.app/'],
+  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://gunno-media-production-wxet.vercel.app/', 'https://gunnomediaproductions.com'] 
 }));
 
 app.use(bodyParser.json());
